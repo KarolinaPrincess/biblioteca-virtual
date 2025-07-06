@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biblioteca Virtual</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>📚 Biblioteca Virtual</h1>
+    <p>Acceso libre a libros para estudiantes y docentes</p>
+  </header>
+
+  <main>
+    <h2>Catálogo de Libros</h2>
+    <ul id="catalogo"></ul>
+
+    <a class="boton" href="https://github.com/KarolinaPrincess/biblioteca-virtual/releases" target="_blank">
+      Descargar App Android
+    </a>
+  </main>
+
+  <footer>
+    <p>Creado con ❤️ por KarolinaPrincess</p>
+  </footer>
+
+  <script>
+    // Cargar libros desde catalogo.json
+    fetch('catalogo.json')
+      .then(response => response.json())
+      .then(libros => {
+        const lista = document.getElementById('catalogo');
+        libros.forEach(libro => {
+          const li = document.createElement('li');
+          li.innerHTML = `<strong>${libro.titulo}</strong> — <em>${libro.autor}</em>
+                          <br><a href="${libro.enlace}" target="_blank">📥 Descargar</a>`;
+          lista.appendChild(li);
+        });
+      });
+  </script>
+</body>
+</html>
