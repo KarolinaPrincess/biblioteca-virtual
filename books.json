@@ -1,0 +1,97 @@
+{
+  "literatura": [
+     {
+      "titulo": "Cien sonetos de amor",
+      "autor": "Pablo Neruda",
+      "enlace": "https://drive.google.com/file/d/1uX9H54sZCUs0Df7PrV1RPobMDoL1qjpM/view?usp=drive_link",
+      "descripcion_autor": "Pablo Neruda fue un poeta chileno, ganador del Premio Nobel de Literatura en 1971. Es considerado uno de los más grandes poetas del siglo XX.",
+      "sinopsis": "Una colección de cien sonetos que Neruda dedicó a su amada Matilde Urrutia, donde expresa el amor desde una perspectiva humana, natural y cotidiana."
+    },
+    {
+      "titulo": "La metamorfosis",
+      "autor": "Franz Kafka",
+      "enlace": "https://drive.google.com/file/d/1uX9H54sZCUs0Df7PrV1RPobMDoL1qjpM/view?usp=drive_link",
+      "descripcion_autor": "Franz Kafka fue un escritor checo de lengua alemana, conocido por sus obras que exploran la ansiedad, la alienación y la burocracia moderna.",
+      "sinopsis": "La historia de Gregor Samsa, un hombre que despierta un día convertido en un insecto gigante. La obra explora la incomunicación, la familia y el absurdo de la existencia."
+    },
+    {
+      "titulo": "El principito",
+      "autor": "Antoine de Saint-Exupéry",
+      "enlace": "https://drive.google.com/file/d/1uX9H54sZCUs0Df7PrV1RPobMDoL1qjpM/view?usp=drive_link",
+      "descripcion_autor": "Saint-Exupéry fue un aviador y escritor francés, autor de obras reflexivas que mezclan filosofía y fantasía.",
+      "sinopsis": "Un niño que habita un pequeño planeta viaja por el universo y llega a la Tierra, donde descubre el amor, la amistad y el sentido de la vida a través de conversaciones simbólicas."
+    },
+    {
+      "titulo": "Don Quijote de la Mancha",
+      "autor": "Miguel de Cervantes",
+      "enlace": "https://www.gutenberg.org/files/996/996-0.txt",
+      "descripcion_autor": "Miguel de Cervantes es considerado el máximo exponente de la literatura española. Su obra ha influido enormemente en la literatura occidental.",
+      "sinopsis": "Un hidalgo enloquece por leer libros de caballería y decide convertirse en un caballero andante. La novela reflexiona sobre la realidad, la locura y la nobleza de espíritu."
+    },
+    {
+      "titulo": "Poemas selectos",
+      "autor": "Gabriela Mistral",
+      "enlace": "https://www.gutenberg.org/files/27270/27270-0.txt",
+      "descripcion_autor": "Gabriela Mistral fue una poeta, diplomática y pedagoga chilena, ganadora del Premio Nobel de Literatura en 1945.",
+      "sinopsis": "Una selección de sus poemas más representativos, que abordan temas como el amor, la maternidad, la muerte y la identidad latinoamericana."
+    } ],
+  "institucional": [
+    { "titulo": "Guía de normas APA 7ma edición", "autor": "Univ. Cooperativa", "enlace": "https://repository.ucc.edu.co/bitstream/20.500.12494/14481/1/NormasAPA2021.pdf" },
+    { "titulo": "Manual de convivencia escolar", "autor": "Ministerio de Educación", "enlace": "https://portalhistorico.mined.gob.sv/manual_convivencia.pdf" },
+    { "titulo": "Planes de clase primaria", "autor": "Mineduc", "enlace": "https://educacion.gob.mx/planes/clase_primaria.pdf" },
+    { "titulo": "Guía de matemáticas básicos", "autor": "ILCE", "enlace": "https://bibliotecadigital.ilce.edu.mx/planes/matematicas_basicos.pdf" },
+    { "titulo": "Calendario académico anual", "autor": "Dirección Escolar", "enlace": "https://escolares.gob.sv/calendario_2025.pdf" },
+    { "titulo": "Política de privacidad", "autor": "Ley de Educación", "enlace": "https://www.tse.gob.sv/ley_privacidad.pdf" },
+    { "titulo": "Formato de autorización", "autor": "Institución", "enlace": "https://docs.google.com/forms/d/auto_form.pdf" },
+    { "titulo": "Indicadores de logro", "autor": "SEP", "enlace": "https://www.sep.gob.mx/indicadores_primaria.pdf" },
+    { "titulo": "Guía de primeros auxilios", "autor": "Cruz Roja", "enlace": "https://www.cruzroja.org/gpa.pdf" },
+    { "titulo": "Reglamento interno", "autor": "Dirección Escolar", "enlace": "https://docs.google.com/document/d/reglamento_interno.pdf" }
+  ],
+  "ciencia": [
+    { "titulo": "Breve historia de la ciencia", "autor": "Michael H. Hart", "enlace": "https://bibliotecadigital.ilce.edu.mx/Colecciones/Serie_Para_todos/Brevehistoriadelaciencia.pdf" },
+    { "titulo": "Física para todos", "autor": "Editorial ILCE", "enlace": "https://bibliotecadigital.ilce.edu.mx/Colecciones/Serie_Para_todos/FisicaParaTodos.pdf" },
+    { "titulo": "Matemáticas básicas", "autor": "UNAM", "enlace": "https://educacion.unam.mx/matematicas_basicas.pdf" },
+    { "titulo": "Química esencial", "autor": "Rodriguez y López", "enlace": "https://www.sia.unam.mx/quimica_esencial.pdf" },
+    { "titulo": "Biología fundamental", "autor": "Van de Graaff", "enlace": "https://www.bio.um.es/fundamental.pdf" },
+    { "titulo": "Introducción a la astronomía", "autor": "Instituto Nacional", "enlace": "https://www.ina.gob.mx/astro_intro.pdf" },
+    { "titulo": "Circuitos eléctricos básicos", "autor": "Pedro García", "enlace": "https://repo.uteq.edu.ec/circuitos_basicos.pdf" },
+    { "titulo": "Ecología y medio ambiente", "autor": "UNESCO", "enlace": "https://unesdoc.unesco.org/ark:/48223/pf0000373351" },
+    { "titulo": "Informática inicial", "autor": "Mineduc", "enlace": "https://educacion.gob.sv/informatica_inicial.pdf" },
+    { "titulo": "Geología para jóvenes", "autor": "INAH", "enlace": "https://inah.gob.mx/geologia_jovenes.pdf" }
+  ],
+  "historia": [
+    { "titulo": "Historia de El Salvador", "autor": "Manuel Montoya", "enlace": "https://aulavirtual.uca.edu.sv/pluginfile.php/131975/mod_resource/content/0/Historia_El_Salvador_Montoya.pdf" },
+    { "titulo": "La conquista de América", "autor": "Tzvetan Todorov", "enlace": "https://d3gtl9l2a4fn1j.cloudfront.net/pdfs/9788432312075.pdf" },
+    { "titulo": "Historia universal", "autor": "H. G. Wells", "enlace": "https://www.gutenberg.org/files/48475/48475-0.txt" },
+    { "titulo": "Revolución francesa", "autor": "Charles Dickens", "enlace": "https://www.gutenberg.org/files/1243/1243-0.txt" },
+    { "titulo": "Independencia de Centroamérica", "autor": "Diversos", "enlace": "https://repository.usac.edu.gt/independencia_cent.pdf" },
+    { "titulo": "Historia de México", "autor": "Vicente Riva Palacio", "enlace": "https://www.gutenberg.org/files/20757/20757-0.txt" },
+    { "titulo": "El imperio romano", "autor": "Edward Gibbon", "enlace": "https://www.gutenberg.org/files/25717/25717-0.txt" },
+    { "titulo": "Edad Media", "autor": "Marc Bloch", "enlace": "https://bibliotecadigital.ilce.edu.mx/edad_media.pdf" },
+    { "titulo": "Segunda Guerra Mundial", "autor": "Antony Beevor", "enlace": "https://www.archive.org/stream/second-world-war/Beevor-Antony---Second_World_War_djvu.txt" },
+    { "titulo": "Historia de América Latina", "autor": "John Charles Chasteen", "enlace": "https://www.uis.edu.co/pdf/historia_latinoamerica.pdf" }
+  ],
+  "biografias": [
+    { "titulo": "Vida de Albert Einstein", "autor": "Walter Isaacson (extracto)", "enlace": "https://educacion.uady.mx/sitios/matematicas/documentos/vida_de_albert_einstein.pdf" },
+    { "titulo": "Nelson Mandela: Resumen", "autor": "Educativo", "enlace": "https://una.edu.pe/bibliotecas/ebooks/mandela_resumen.pdf" },
+    { "titulo": "Marie Curie: mujer de ciencia", "autor": "ILCE", "enlace": "https://bibliotecadigital.ilce.edu.mx/colecciones/biografias/marie_curie.pdf" },
+    { "titulo": "Frida Kahlo: biografía ilustrada", "autor": "Educativo", "enlace": "https://educacion.gob.mx/frida_kahlo.pdf" },
+    { "titulo": "Simón Bolívar: libertador", "autor": "Diversos", "enlace": "https://repositorio.ues.edu.sv/simon_bolivar.pdf" },
+    { "titulo": "Gabriela Mistral: vida y obra", "autor": "RAE educativa", "enlace": "https://www.bibliotecadigitalilce.edu.mx/gabriela_mistral.pdf" },
+    { "titulo": "Mahatma Gandhi", "autor": "UNESCO", "enlace": "https://unesdoc.unesco.org/ark:/48223/pf0000373365" },
+    { "titulo": "Steve Jobs", "autor": "Resumen educativo", "enlace": "https://educacion.uady.mx/descargas/steve_jobs_resumen.pdf" },
+    { "titulo": "Ada Lovelace: pionera informática", "autor": "Ilustración educativa", "enlace": "https://www.digitalwomen.org/ada_lovelace.pdf" },
+    { "titulo": "Hernán Cortés: conquistador", "autor": "Texto histórico", "enlace": "https://www.gutenberg.org/files/4082/4082-0.txt" },
+    { "titulo": "Vida de Albert Einstein", "autor": "Walter Isaacson (extracto)", "enlace": "https://educacion.uady.mx/sitios/matematicas/documentos/vida_de_albert_einstein.pdf" },
+    { "titulo": "Nelson Mandela: Resumen", "autor": "Educativo", "enlace": "https://una.edu.pe/bibliotecas/ebooks/mandela_resumen.pdf" },
+    { "titulo": "Marie Curie: mujer de ciencia", "autor": "ILCE", "enlace": "https://bibliotecadigital.ilce.edu.mx/colecciones/biografias/marie_curie.pdf" },
+    { "titulo": "Frida Kahlo: biografía ilustrada", "autor": "Educativo", "enlace": "https://educacion.gob.mx/frida_kahlo.pdf" },
+    { "titulo": "Simón Bolívar: libertador", "autor": "Diversos", "enlace": "https://repositorio.ues.edu.sv/simon_bolivar.pdf" },
+    { "titulo": "Gabriela Mistral: vida y obra", "autor": "RAE educativa", "enlace": "https://www.bibliotecadigitalilce.edu.mx/gabriela_mistral.pdf" },
+    { "titulo": "Mahatma Gandhi", "autor": "UNESCO", "enlace": "https://unesdoc.unesco.org/ark:/48223/pf0000373365" },
+    { "titulo": "Steve Jobs", "autor": "Resumen educativo", "enlace": "https://educacion.uady.mx/descargas/steve_jobs_resumen.pdf" },
+    { "titulo": "Ada Lovelace: pionera informática", "autor": "Ilustración educativa", "enlace": "https://www.digitalwomen.org/ada_lovelace.pdf" },
+    { "titulo": "Hernán Cortés: conquistador", "autor": "Texto histórico", "enlace": "https://www.gutenberg.org/files/4082/4082-0.txt" }
+  
+  ]
+}

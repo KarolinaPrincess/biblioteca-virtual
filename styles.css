@@ -1,0 +1,280 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo para el enlace de navegación activo (si no lo tenías ya) */
+.navbar-link.active {
+  background-color: #00ffff;
+  color: #000;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #000;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  overflow: hidden; /* Prevent body scroll, let specific sections scroll */
+}
+
+header {
+  background-color: #000000;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky; /* Make header sticky */
+  top: 0; /* Stick to the top */
+  z-index: 2;
+  border-bottom: 1px solid #333;
+}
+
+/* New container for fixed left-side elements (navbar and search) */
+.left-fixed-elements {
+  position: sticky; /* Make this container sticky */
+  top: 60px; /* Adjust this value based on your header's height (e.g., header height + padding) */
+  background-color: #000; /* Ensure background to cover scrolling content */
+  z-index: 1; /* Below header */
+  border-bottom: 1px solid #333; /* Border for search/navbar section */
+}
+
+main.container {
+  flex: 1;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  overflow: hidden; /* Prevent main container from scrolling */
+}
+
+.overlay {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.overlay h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.overlay p {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  opacity: 0.8;
+}
+
+/* Contenedor de las dos columnas */
+.columns {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  height: calc(100vh - var(--header-height, 60px) - var(--footer-height, 60px)); /* Adjust height dynamically */
+  margin: 0 auto;
+  gap: 0;
+}
+
+.section {
+  background-color: #000000;
+  flex: 1;
+  padding: 0rem;
+  display: flex;
+  flex-direction: column;
+  transition: background-color 0.3s ease;
+  overflow: hidden;
+}
+
+.section-right {
+  padding: 0rem;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Borde entre columnas solo en escritorio */
+.section-left {
+  border-right: 1px solid #333;
+  display: flex; /* Use flex to manage internal layout */
+  flex-direction: column; /* Stack content vertically */
+  overflow: hidden; /* Hide overflow initially for flex items */
+}
+
+/* Hover opcional */
+.section-left:hover {
+  background-color: #222;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  opacity: 0.7;
+  border-top: 1px solid #333;
+  position: sticky; /* Make footer sticky */
+  bottom: 0; /* Stick to the bottom */
+  z-index: 2;
+}
+
+/* Barra de navegación */
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+
+/* === Barra de navegación deslizable === */
+.navbar-scroll-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  border-bottom: 1px solid #333;
+  scroll-behavior: auto !important;
+}
+
+.navbar-scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar-list {
+  display: inline-flex;
+  gap: 0;
+  list-style: none;
+  margin: 0;
+  padding: 15px 0; /* Evita que quede pegado a los bordes */
+}
+
+.navbar-item {
+  display: inline-block;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  white-space: nowrap;
+}
+
+.navbar-link:hover {
+  background-color: #222;
+  color: #ccc;
+}
+
+/* Campo de búsqueda */
+.navbar-search {
+  display: flex;
+  justify-content: center;
+  padding: 0rem 0;
+  border-bottom: 1px solid #333; /* Add border here to be part of the sticky section */
+}
+
+/* Campo de búsqueda - estilo minimalista con solo borde inferior */
+.search-input {
+  width: 100%;
+  max-width: 100%;
+  padding: 12px 0;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  padding-left: 25px;
+}
+
+.search-input::placeholder {
+  color: #ffffff;
+}
+
+/* Contenedor para la parte que debe hacer scroll */
+#books-wrapper {
+  flex: 1; /* Allow this to take up remaining vertical space */
+  overflow-y: auto; /* Enable vertical scrolling */
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Contenedor dinámico para mostrar libros */
+#books-container {
+  width: 100%;
+}
+
+/* Tarjeta minimalista con solo el título y el link */
+.book-card {
+  background-color: #000;
+  border-bottom: 1px solid #333;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* Solo el título del libro */
+.book-card h3 {
+  font-size: 1rem;
+  margin: 0;
+  font-weight: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-grow: 1;
+}
+
+/* Enlace de descarga */
+.book-link {
+  text-decoration: none;
+  color: #00ffff;
+  font-weight: bold;
+  border-bottom: 1px dotted #00ffff;
+  transition: opacity 0.3s ease;
+  font-size: 0.95rem;
+  white-space: nowrap;
+  padding-left: 8px;
+}
+
+.book-link:hover {
+  opacity: 0.8;
+}
+
+.book-details {
+  padding: 1rem;
+  font-size: 0.95rem;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.book-details h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.book-details .author {
+  font-weight: bold;
+  color: #00ffff;
+  margin-top: 0.5rem;
+  display: block;
+}
+
+.book-details .description {
+  margin-top: 1rem;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+.book-details .synopsis {
+  margin-top: 1rem;
+}

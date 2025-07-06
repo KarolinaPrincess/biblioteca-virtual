@@ -2,42 +2,71 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Biblioteca Virtual</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>P.S</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- <link rel="stylesheet" href="styles_media.css"> -->
 </head>
 <body>
   <header>
-    <h1>📚 Biblioteca Virtual</h1>
-    <p>Acceso libre a libros para estudiantes y docentes</p>
+    <span>P.S</span>
+    <span>BIBLIOTECA VRT</span>
+    <span>ABOUT US</span>
   </header>
 
-  <main>
-    <h2>Catálogo de Libros</h2>
-    <ul id="catalogo"></ul>
+  <main class="container">
+    <div class="columns">
+      <!-- Sección Izquierda -->
+        <section class="section section-left">
+        <h2>Detalles del Libro</h2>
+        <div id="book-details" class="book-details">
+            <!-- Aquí aparecerán los detalles del libro seleccionado -->
+            <p>Selecciona un libro para ver más información.</p>
+        </div>
+        </section>
 
-    <a class="boton" href="https://github.com/KarolinaPrincess/biblioteca-virtual/releases" target="_blank">
-      Descargar App Android
-    </a>
+      <!-- Sección Derecha -->
+      <section class="section section-right" >
+        <div class="navbar-header" >
+            <nav class="navbar" >
+                <div class="navbar-scroll-container" >
+                    <ul class="navbar-list" >
+                        <li class="navbar-item">
+                            <a href="javascript:void(0)" data-category="institucional" class="navbar-link">Institucional</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="javascript:void(0)" data-category="literatura" class="navbar-link">Literatura</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="javascript:void(0)" data-category="ciencia" class="navbar-link">Ciencia y Tecnología</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="javascript:void(0)" data-category="historia" class="navbar-link">Historia y Sociales</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="javascript:void(0)" data-category="biografias" class="navbar-link">Biografías</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="navbar-search">
+                <input type="text" placeholder="Buscar..." class="search-input" />
+            </div>
+        </div>
+       
+        <!-- Contenedor dinámico para mostrar libros -->
+        <div id="books-wrapper">
+            <div id="books-container"></div>
+        </div>
+      </section>
+    </div>
   </main>
 
   <footer>
-    <p>Creado con ❤️ por KarolinaPrincess</p>
+
   </footer>
 
-  <script>
-    // Cargar libros desde catalogo.json
-    fetch('catalogo.json')
-      .then(response => response.json())
-      .then(libros => {
-        const lista = document.getElementById('catalogo');
-        libros.forEach(libro => {
-          const li = document.createElement('li');
-          li.innerHTML = `<strong>${libro.titulo}</strong> — <em>${libro.autor}</em>
-                          <br><a href="${libro.enlace}" target="_blank">📥 Descargar</a>`;
-          lista.appendChild(li);
-        });
-      });
-  </script>
+  <!-- Scripts -->
+  <script src="app.js" type="module"></script>
 </body>
 </html>
