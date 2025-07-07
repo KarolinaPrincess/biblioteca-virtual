@@ -1,75 +1,26 @@
 {
   "literatura": [
     {
+      "id": 1,
       "titulo": "Rayuela (Edición conmemorativa de la RAE y la ASALE)",
       "autor": "Julio Cortázar",
       "descripcion_autor": "Julio Cortázar fue un escritor argentino, uno de los autores más innovadores y originales de su tiempo. Figura clave del llamado 'Boom latinoamericano', es célebre por sus cuentos, novelas y por revolucionar la narrativa hispanoamericana.",
       "sinopsis": "Rayuela es una novela que rompió con los moldes tradicionales de la narrativa. Esta edición conmemorativa rinde homenaje a su impacto cultural e incluye textos críticos de figuras como Gabriel García Márquez y Mario Vargas Llosa, además del 'Cuaderno de bitácora', donde Cortázar anotó ideas y escenas durante la creación de la obra.",
-      "enlace": "https://drive.google.com/file/d/1N9eRRO9-D5mnb7xIYan4nsNwgzEpgFly/view?usp=drive_link",
-
+      "enlace": "books/2.epub",
       "publicado": "1963",
       "paginas": 808,
       "genero": "Novela / Otros"
     },
     {
+      "id": 2,
       "titulo": "Alejandra Pizarnik. Biografía de un mito",
       "autor": "Cristina Piña y Patricia Venti",
       "descripcion_autor": "Cristina Piña es una reconocida crítica literaria y traductora argentina, especialista en poesía latinoamericana, especialmente en la obra de Alejandra Pizarnik. Patricia Venti es investigadora y escritora, con estudios centrados en literatura femenina y archivo literario.",
       "sinopsis": "Esta biografía ampliada explora la vida y obra de la enigmática poeta Alejandra Pizarnik. A partir de material inédito —como diarios, cuadernos, correspondencia y testimonios de su entorno íntimo—, las autoras reconstruyen con rigor y sensibilidad la complejidad de una figura clave de la poesía del siglo XX. El resultado es un ensayo biográfico exhaustivo que ilumina nuevas facetas de la poeta, desde su infancia hasta su estadía en París y sus relaciones literarias y personales.",
-      "enlace": " https://drive.google.com/file/d/1uX9H54sZCUs0Df7PrV1RPobMDoL1qjpM/view?usp=drive_link",
-     
+      "enlace": "books/1.epub",
       "publicado": "2021",
       "paginas": 277,
       "genero": "Ensayo / Biografía"
-    }
-  ],
-  "ciencia_y_tecnologia": [
-    {
-      "titulo": "Carl Sagan. Una vida en el cosmos",
-      "autor": "William Poundstone",
-      "descripcion_autor": "William Poundstone es un autor estadounidense especializado en ciencia, matemáticas y biografía, conocido por sus obras accesibles y rigurosas sobre temas científicos complejos.",
-      "sinopsis": "En esta biografía, Poundstone narra cómo Carl Sagan se convirtió en un icono cultural, fusionando la divulgación científica con su vida personal y profesional. Describe sus inicios como joven astrónomo, su ascenso a la fama mediática y las tensiones con la comunidad científica. Con testimonios, documentos y entrevistas, el autor ofrece una mirada profunda y humana del astrónomo más popular del siglo XX.",
-      "enlace": " https://drive.google.com/file/d/1eoABiTv7-qupovFDgYXaB6f4hMWUmydD/view?usp=drive_link",
-
-      "publicado": "1999",
-      "paginas": 572,
-      "genero": "Ensayo / Memorias"
-    },
-    {
-      "titulo": "Breves respuestas a las grandes preguntas",
-      "autor": "Stephen Hawking",
-      "descripcion_autor": "Stephen Hawking fue un físico teórico y cosmólogo británico, célebre por su trabajo en los agujeros negros y la relatividad, así como por su capacidad de divulgar la ciencia a pesar de su enfermedad degenerativa.",
-      "sinopsis": "Este libro reúne las respuestas de Hawking a las grandes preguntas de la humanidad: ¿Hay un Dios? ¿Podemos predecir el futuro? ¿Sobreviviremos en la Tierra? El texto, terminado poco antes de su muerte, refleja su pensamiento sobre el futuro de la ciencia, la tecnología y la humanidad, todo presentado de forma accesible y reflexiva.",
-      "enlace": " https://drive.google.com/file/d/1dAnp-KyWfoVHu64aeXcZ9RAE2AwyZye2/view?usp=drive_link",
-    
-      "publicado": "2018",
-      "paginas": 145,
-      "genero": "Divulgación / Ciencias exactas y naturales"
-    }
-  ],
-  "historia": [
-    {
-      
-      "titulo": "Las venas abiertas de América Latina",
-      "autor": "Eduardo Galeano",
-      "descripcion_autor": "Eduardo Galeano fue un escritor y periodista uruguayo, una de las voces más influyentes de la literatura latinoamericana del siglo XX. Su obra combina narrativa, ensayo y análisis político-social con un estilo poético y comprometido, destacando temas de identidad, historia y justicia en América Latina.",
-      "sinopsis": "Este emblemático ensayo ofrece una mirada crítica a la historia de América Latina desde la colonización hasta el siglo XX, denunciando las estructuras de poder, explotación y saqueo impuestas por imperios y élites locales. Con un estilo narrativo ágil, casi literario, Galeano expone cómo los recursos, el trabajo y la dignidad del continente han sido sistemáticamente desangrados, revelando una historia silenciada por el discurso oficial.",
-      "enlace": "https://drive.google.com/file/d/1PqbLY9AnElFDCKzYQ_Q3NvbiwxEMSK-d/view?usp=sharing",   
-      "publicado": "1971",
-      "paginas": 344,
-      "genero": "Ensayo / Historia"
-    }
-  ],
-  "arte": [
-    {
-      "titulo": "El cine según Hitchcock",
-      "autor": "François Truffaut",
-      "descripcion_autor": "François Truffaut fue un influyente director, crítico y guionista francés, figura clave de la Nouvelle Vague. Apasionado del cine desde joven, su trabajo como crítico en 'Cahiers du Cinéma' y su carrera como cineasta redefinieron el cine moderno. Este libro refleja su admiración por Alfred Hitchcock y su capacidad de análisis cinematográfico.",
-      "sinopsis": "Resultado de una conversación de cincuenta horas y un cuestionario de quinientas preguntas, esta obra es un testimonio profundo del pensamiento cinematográfico de Alfred Hitchcock. Truffaut actúa como interlocutor brillante, guiando al lector por los secretos detrás de cada película, desde la escritura del guion hasta el impacto comercial, en un diálogo revelador entre dos gigantes del cine.",
-      "enlace": "https://drive.google.com/file/d/1Ylbv_S5ylsHQLmBGYvqLoLXqeUFlmRGN/view?usp=sharing",
-      "publicado": "1967",
-      "paginas": 337,
-      "genero": "Divulgación / Cinematografía"
     }
   ]
 }

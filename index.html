@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>P.S</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="styles_media.css"> -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca Virtual</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Carga estas librerías primero desde local -->
+  <script src="js/jszip.min.js"></script>
+  <script src="lib/epub.min.js"></script>
 </head>
 <body>
   <header>
@@ -18,65 +19,77 @@
   <main class="container">
     <div class="columns">
       <!-- Sección Izquierda -->
-        <section class="section section-left">
+      <section class="section section-left">
         <div id="book-details" class="book-details">
-            <!-- Aquí aparecerán los detalles del libro seleccionado -->
-            <p>Selecciona un libro para ver más información.</p>
+          <p>Selecciona un libro para ver más información.</p>
         </div>
-        
-        
-        </section>
+      </section>
 
       <!-- Sección Derecha -->
-      <section class="section section-right" >
-        <div class="navbar-header" >
-            <nav class="navbar" >
-                <div class="navbar-scroll-container" >
-                    <ul class="navbar-list" >
-                        <li class="navbar-item">
-                            <a href="javascript:void(0)" data-category="institucional" class="navbar-link">Institucional</a>
-                        </li>
-                        <li class="navbar-item">
-                            <a href="javascript:void(0)" data-category="literatura" class="navbar-link">Literatura</a>
-                        </li>
-                        <li class="navbar-item">
-                            <a href="javascript:void(0)" data-category="ciencia_y_tecnologia" class="navbar-link">Ciencia y Tecnología</a>
-                        </li>
-                        <li class="navbar-item">
-                            <a href="javascript:void(0)" data-category="historia" class="navbar-link">Historia y Sociales</a>
-                        </li>
-                        <li class="navbar-item">
-                            <a href="javascript:void(0)" data-category="arte" class="navbar-link">Arte y Cultura</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <div class="navbar-search">
-                <input type="text" placeholder="Buscar..." class="search-input" />
+      <section class="section section-right">
+        <div class="navbar-header">
+          <nav class="navbar">
+            <div class="navbar-scroll-container">
+              <ul class="navbar-list">
+                <li class="navbar-item">
+                  <a href="#" data-category="institucional" class="navbar-link">Institucional</a>
+                </li>
+                <li class="navbar-item">
+                  <a href="#" data-category="literatura" class="navbar-link active">Literatura</a>
+                </li>
+                <li class="navbar-item">
+                  <a href="#" data-category="ciencia_y_tecnologia" class="navbar-link">Ciencia y Tecnología</a>
+                </li>
+                <li class="navbar-item">
+                  <a href="#" data-category="historia" class="navbar-link">Historia y Sociales</a>
+                </li>
+                <li class="navbar-item">
+                  <a href="#" data-category="arte" class="navbar-link">Arte y Cultura</a>
+                </li>
+              </ul>
             </div>
+          </nav>
+          <div class="navbar-search">
+            <input type="text" placeholder="Buscar..." class="search-input">
+          </div>
         </div>
        
         <!-- Contenedor dinámico para mostrar libros -->
         <div id="books-wrapper">
-            <div id="books-container"></div>
+          <div id="books-container"></div>
         </div>
       </section>
     </div>
   </main>
 
-  <footer>
-  <div class="footer-container">
-
-    <p>Acceso libre al conocimiento para estudiantes y docentes.</p>
-
-
-
-    <p>&copy; 2025 Biblioteca Virtual. Todos los derechos reservados.</p>
+  <!-- Modal para el visor de libros - Versión mejorada -->
+  <div id="book-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <button class="info-btn" title="Información del libro">i</button>
+      <div class="book-info-tooltip">
+        <!-- Contenido dinámico con info del libro -->
+      </div>
+      <div id="epub-viewer-container">
+        <div id="epub-viewer"></div>
+        <div class="epub-controls">
+          <button class="epub-prev">Anterior</button>
+          <div class="progress-container">
+            <div class="progress-bar"></div>
+          </div>
+          <button class="epub-next">Siguiente</button>
+        </div>
+      </div>
+    </div>
   </div>
-</footer>
 
+  <footer>
+    <div class="footer-container">
+      <p>Acceso libre al conocimiento para estudiantes y docentes.</p>
+      <p>&copy; 2025 Biblioteca Virtual. Todos los derechos reservados.</p>
+    </div>
+  </footer>
 
-  <!-- Scripts -->
-  <script src="app.js" type="module"></script>
+  <script src="app.js"></script>
 </body>
 </html>
